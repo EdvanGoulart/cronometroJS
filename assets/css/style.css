@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-button {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.container-button button{
+    width: 100px;
+    margin-right: 10px;
+    font-size: 1rem;
+    height: 2rem;
+}
+
+.countainer-watch p{
+    width: 20%;
+    font-size: 4rem;
+}
+
+.day, .hour, .minute, .second {
+    font-size: 3rem;
+} 
+
+.hourglass_img{
+    height: 68vh;
+    
+}
+
+.paused{
+    color: red;
+}
